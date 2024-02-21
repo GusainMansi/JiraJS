@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jira.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <body>
+
+<div class="head-container">
+    <div class="dropdown-container">
+        <div class="dropdown" onclick="toggleItem()">
+        
+            <strong>Projects</strong>
+        <span class="material-icons">expand_more</span>
+  
+        </div>
+        <div class="dropdown-list">
+            <a href="#">First Item</a>
+            <a href="#">Second Item</a>
+            <a href="#">Third Item</a>
+        </div>
+          </div>
+    
+    <button id="create">Create</button>
+</div>
+
+<div class="panels-container">
+<div class="panel" id="TODO">
+    <h1>To Do</h1>
+   
+</div>
+<div class=" panel"id= "IN_PROGRESS">
+    <h1>In Progress</h1>
+</div>
+<div class="panel" id="DONE">
+    <h1>Completed</h1>
+</div>
+</div>
+
+
+    <script src="./jira.js"></script>
+</body>
+</html>
